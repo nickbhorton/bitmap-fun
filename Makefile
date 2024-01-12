@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -Wextra -pedantic -g3 -Wno-unused-function -I ./include
+CXXFLAGS = -Wall -Wextra -pedantic -g3 -Wno-unused-function -std=c++20 -I ./include
 BUILD_DIR = build
 SRC_DIR = src/
 
